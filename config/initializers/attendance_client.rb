@@ -1,7 +1,7 @@
 module AttendanceClient
   HOST = case Rails.env
     when "production"
-      "attendance.padm.am"
+      "padma-attendance.herokuapp.com"
     when "staging"
       "padma-attendance-straing.herokuapp.com"
     when "development"
