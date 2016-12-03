@@ -15,6 +15,8 @@ module AttendanceClient
     attribute :schedule
     attribute :account_name
     attribute :teacher
+    attribute :contacts
+    attribute :recurrent_contacts
     
     def json_root
       'time_slot'
